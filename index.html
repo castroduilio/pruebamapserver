@@ -41,7 +41,7 @@
         }
         map.createPane('pane_PARCEGC_0');
         map.getPane('pane_PARCEGC_0').style.zIndex = 400;
-        var layer_PARCEGC_0 = L.WMS.layer("http://localhost:8080/geoserver/earth/wms", "PARCEGC", {
+        var layer_PARCEGC_0 = L.WMS.layer("http://192.168.101.1:8080/geoserver/earth/wms", "PARCEGC", {
             pane: 'pane_PARCEGC_0',
             format: 'image/png',
             uppercase: true,
